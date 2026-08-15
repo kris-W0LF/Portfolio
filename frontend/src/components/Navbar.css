@@ -1,0 +1,166 @@
+.navbar{
+
+    position:fixed;
+
+    top:25px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:90%;
+
+    height:75px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+    background:rgba(15,23,42,.65);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(139,92,246,.2);
+
+    border-radius:18px;
+
+    z-index:1000;
+
+    transition:.35s;
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:white;
+
+    letter-spacing:2px;
+}
+
+.logo span{
+
+    color:#8B5CF6;
+}
+
+.nav-menu{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:40px;
+}
+
+.nav-menu a{
+
+    color:#CBD5E1;
+
+    text-decoration:none;
+
+    position:relative;
+
+    transition:.35s;
+}
+
+.nav-menu a:hover{
+
+    color:white;
+}
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#8B5CF6;
+
+    transition:.35s;
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+}
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+}
+
+.github{
+
+    width:45px;
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#1E293B;
+
+    color:white;
+
+    font-size:20px;
+
+    transition:.35s;
+}
+
+.github:hover{
+
+    background:#8B5CF6;
+
+    transform:translateY(-4px);
+}
+
+.resume{
+
+    background:#8B5CF6;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 28px;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.35s;
+}
+
+.resume:hover{
+
+    transform:translateY(-4px);
+
+    background:#7C3AED;
+
+    box-shadow:0 10px 25px rgba(139,92,246,.4);
+}

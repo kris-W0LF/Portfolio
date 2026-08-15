@@ -1,0 +1,96 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root{
+
+    --bg:#050816;
+    --card:#101827;
+    --card2:#161F32;
+
+    --primary:#8B5CF6;
+    --secondary:#6D28D9;
+
+    --white:#F8FAFC;
+    --gray:#94A3B8;
+
+    --border:#2B3550;
+
+    --shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:var(--bg);
+
+    color:var(--white);
+
+    font-family:"Space Grotesk",sans-serif;
+
+    overflow-x:hidden;
+}
+
+section{
+
+    width:100%;
+
+    padding:120px 8%;
+}
+
+button{
+
+    font-family:inherit;
+}
+
+img{
+
+    display:block;
+
+    width:100%;
+}
+
+a{
+
+    text-decoration:none;
+}
+
+@media (max-width:576px){
+
+section{
+
+    padding:90px 6%;
+
+}
+
+h1{
+
+    font-size:40px !important;
+
+}
+
+h2{
+
+    font-size:32px !important;
+
+}
+
+.profile-card{
+
+    height:auto;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+}
