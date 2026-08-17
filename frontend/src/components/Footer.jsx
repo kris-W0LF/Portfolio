@@ -20,7 +20,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/krish-kumar-verma"
           target="_blank"
           rel="noopener noreferrer"
         >
