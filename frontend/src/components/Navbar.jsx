@@ -19,7 +19,7 @@ function Navbar() {
 
       <div className="nav-right">
 
-        <a href="#" className="github">
+        <a href="https://github.com/kris-W0LF" className="github">
           <FaGithub />
         </a>
 

@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer-icons">
 
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/kris-W0LF"
           target="_blank"
           rel="noopener noreferrer"
         >

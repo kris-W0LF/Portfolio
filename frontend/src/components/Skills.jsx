@@ -79,6 +79,8 @@ function Skills() {
 
             <span><FaGithub /> GitHub</span>
 
+             <span><FaGithub /> VS Code</span>
+
           </div>
 
         </div>

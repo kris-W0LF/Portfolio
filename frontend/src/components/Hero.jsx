@@ -1,5 +1,6 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
+import Profile from "../assets/Profile.png";
 // import profile from "../assets/profile.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -10,7 +11,7 @@ function Hero() {
       <div className="glow glow1"></div>
       <div className="glow glow2"></div>
 
-      
+
 
       <motion.div
         className="hero-left"
@@ -67,8 +68,7 @@ function Hero() {
         <div className="profile-card">
 
           <div className="profile-placeholder">
-            <h1>KK</h1>
-            <p>Coming Soon</p>
+            <img src={Profile} alt="Profile" />
           </div>
 
         </div>
